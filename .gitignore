@@ -1,0 +1,23 @@
+# Node
+yarn.lock
+pnpm-lock.yaml
+node_modules/
+.dist/
+dist/
+*.log
+
+# Env
+.env*
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Coverage/tmp
+coverage/
+.tmp/
+tmp/
+
+# Generated data
+public/data/aemet_avisos.json
+public/data/aemet_meta.json
