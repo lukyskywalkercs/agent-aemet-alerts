@@ -28,25 +28,19 @@ Es solo un proyecto personal de exploración técnica.
 
 ---
 
-## ⚠️ Advertencia legal y ética
+## ✅ Características
 
-> Este proyecto **NO** ha sido auditado, ni validado, ni recomendado por ningún organismo público (AEMET, AVSRE, UME, etc.)
-
-- ❌ No debe usarse para proteger vidas humanas
-- ❌ No es apto para toma de decisiones en emergencias
-- ✅ Es solo código abierto para aprender y experimentar
-
-**SI INSTALAS ESTO Y LO USAS MAL, ES TU RESPONSABILIDAD.**
-
----
-
-## 👍 ¿Te parece interesante?
-
-- Puedes estudiar el código  
-- Puedes adaptarlo para otros usos educativos  
-- Puedes mejorarlo  
-- **Y si te gusta... ¡déjale una estrella ⭐ en GitHub!**  
-  *(eso sí es oficial)*
+- 🔁 Consulta cada 10 minutos la API oficial de AEMET
+- 📦 Ingesta robusta: TAR/ZIP/GZ, redirecciones, timeouts y reintentos; decodificación ISO‑8859‑15
+- 🧠 Procesa CAP: subzonas (geocode zona), fenómeno, valor, probabilidad, comentario, inicio/fin
+- 🛡️ Política de verdad: solo datos oficiales; si falla, JSON vacío (sin inventar)
+- 🧮 Severidad consolidada: CRÍTICA/MEDIA/NORMALIDAD por subzona y área (vigentes)
+- 🔎 Deduplicación: clave subzona|evento|desde|hasta|nivel
+- 🧾 Auditoría: `aemet_meta.json` con fuente y timestamp
+- 💾 Memoria del agente: `agents/memory/state.json` (cambios por subzona con cooldown)
+- 🖥️ Panel del agente en la UI: última ejecución, estado por áreas, cambios recientes (`agent_ui.json`)
+- 🔌 Notificaciones enchufables: preparado para añadir Slack/Email/SMS
+- 🧱 Escalable y componible: backend/agent/frontend desacoplados; fácil orquestar con otros agentes
 
 ---
 
