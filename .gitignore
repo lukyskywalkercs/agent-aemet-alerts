@@ -21,3 +21,5 @@ tmp/
 # Generated data
 public/data/aemet_avisos.json
 public/data/aemet_meta.json
+public/data/agent_ui.json
+agents/memory/state.json
